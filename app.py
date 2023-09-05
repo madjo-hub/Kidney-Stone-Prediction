@@ -20,12 +20,7 @@ def home():
     data=pd.read_csv('train.csv')
     st.markdown('**Glimpse of dataset**')
     st.write(data.head(5))
-    st.write("gravit")
-    st.write("PH value")
-    st.write("Osmo")
-    st.write("Cond")
-    st.write("Urea")
-    st.write("calc")
+   
    
 # Define the prediction function
 def prediction():
