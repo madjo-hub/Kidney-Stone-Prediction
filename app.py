@@ -10,6 +10,7 @@ from keras.models import load_model
 
 # Define the home function
 def home():
+    
     st.write("## Introduction")
    
     imageha = mpimg.imread('stone.jpg')     
@@ -72,8 +73,8 @@ def prediction():
 
 
 def main():
-    st.set_page_config(page_title="Heart Disease Prediction", page_icon=":heart:")
-    st.markdown("<h1 style='text-align: center; color: white;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
+    st.set_page_config(page_title="Kidney Stone Prediction", page_icon=":heart:")
+    st.markdown("<h1 style='text-align: center; color: white;'>Kidney stone prdiction</h1>", unsafe_allow_html=True)
 # Create the tab layout
     tabs = ["Home", "Prediction"]
     page = st.sidebar.selectbox("Select a page", tabs)
